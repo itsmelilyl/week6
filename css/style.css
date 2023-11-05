@@ -1,0 +1,50 @@
+.header {
+	text-align: center;
+	background-color: rgb(182, 182, 182);
+	padding: 10px 0 10px 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.part1 {
+	text-align: center;
+	background-color: bisque;
+}
+
+.part1_inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.more1 {
+	background-color: rgb(224, 208, 105);
+	padding: 15px;
+	margin: 10px;
+}
+
+.more3 {
+	background-color: rgb(224, 208, 105);
+	padding: 15px;
+	margin: 10px;
+}
+
+.part2 {
+	background-color: rgb(109, 222, 118);
+	text-align: center;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: rgb(182, 182, 182);
+}
+
+.footer_item {
+	background-color: rgb(227, 235, 235);
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+}
