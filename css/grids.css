@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    background-color: #51636C;
+    grid-template-columns: 6fr 1fr 1fr;
+    grid-template-rows: 6fr ;
+}
+
+.text {
+	text-align: center;
+	background-color: #51636C;
+}
+
+.text1{
+    color: #FFF;
+font-family: Raleway;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+.text2 {
+    color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+text-align: left;
+}
+
+
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr)
+	background-color: rgb(109, 222, 118);
+    grid-gap: 20px;
+	text-align: center;
+}
+

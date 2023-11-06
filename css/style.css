@@ -9,29 +9,24 @@
 	grid-template-columns: 2fr 1fr;
 }
 
-.part1 {
+.main {
 	text-align: center;
 	background-color: bisque;
 }
 
-.part1_inner {
+.main_inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
-.more1 {
+.more1, .more3 {
 	background-color: rgb(224, 208, 105);
 	padding: 15px;
 	margin: 10px;
 }
 
-.more3 {
-	background-color: rgb(224, 208, 105);
-	padding: 15px;
-	margin: 10px;
-}
 
-.part2 {
+.aside {
 	background-color: rgb(109, 222, 118);
 	text-align: center;
 }
